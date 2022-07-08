@@ -75,6 +75,8 @@ def connect_to_server(self):
 ## 💡 Bonus
 As a bonus, we have developed a mobile application that integrates the graphic client in augmented reality. The phone connects like a classic client on the network to communicate with the server on the machine.
 
+![GUI](./.github/images/ar.jpg)
+### **&nbsp;&nbsp; 💿 Full demo available [here](https://youtu.be/DI_l7lQiE4U) !**
 #
 ## ❤️ Contributors
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📌 [PREMONT Maxime](https://github.com/MaximePremont) &nbsp;&nbsp;👉&nbsp;&nbsp; [GUI](./Gui/) + [AR (Bonus)](./Gui/Unity_AR_project/)  
