@@ -1,0 +1,12 @@
+.vscode
+*.gcno
+*.gcda
+*.o
+vgcore.*
+zappy_server
+zappy_server_test
+zappy_server_ref
+./zappy_ai
+zappy_gui
+#Ai/zappy_ai
+__pycache__

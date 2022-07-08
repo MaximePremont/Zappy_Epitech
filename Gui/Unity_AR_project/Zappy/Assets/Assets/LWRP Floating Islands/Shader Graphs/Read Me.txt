@@ -1,0 +1,13 @@
+Cartoon Water:
+Make sure to have the mesh unwraped such that it occupy the whole texture if the texture is seamless
+
+the tutorial video on creating this is:
+https://www.youtube.com/watch?v=nhYrtvT543w
+
+
+Realistic Water:
+This shader is built using the cartoon water shader but it uses the camera texture with some fake refraction
+Make sure you enable "Opaque Texture" in the LWRP settings being used in your project
+
+Random Color:
+This shader will pick randomly (based on X,Z position) a color between two colors that you can define 

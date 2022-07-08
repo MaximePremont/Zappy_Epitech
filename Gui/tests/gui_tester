@@ -1,0 +1,89 @@
+#!/usr/bin/env python3
+from pwn import *
+import sys
+
+def display_banner():
+  print("       _____   ___    ____  ______  __")
+  print("      /__  /  /   |  / __ \/ __ \ \/ /")
+  print("        / /  / /| | / /_/ / /_/ /\  /")
+  print("       / /__/ ___ |/ ____/ ____/ / /")
+  print("      /____/_/  |_/_/   /_/     /_/")
+  print("      ---> Gui Testing Program <---\n")
+
+def setup_test(info, sleep):
+    print(info)
+    time.sleep(sleep)
+
+def send_cmd(conn, cmd):
+    conn.send(cmd.encode())
+
+def start_gui(conn):
+  setup_test("<< Connection Test >>", 1)
+  setup_test("Generate map (4x4)", 1)
+  send_cmd(conn, "0 msz 4 4\n")
+  setup_test("Create 2 team : red and blue", 1)
+  send_cmd(conn, "0 tna 2 red blue\n")
+  setup_test("Set timestamp to 50", 1)
+  send_cmd(conn, "0 sgt 50\n")
+  print("--> Done\n")
+
+def spawn_player(conn):
+    setup_test("<< Spawning Test >>", 1)
+    setup_test("Spawning player...", 1)
+    send_cmd(conn, "0 pnw 1 2 2 1 1 blue\n")
+
+def spawn_food(conn):
+  setup_test("Spawning food...", 1)
+  for i in range(0, 4):
+      for j in range(0, 4):
+        send_cmd(conn, "0 bct " + str(i) + " " + str(j) + " 2 1 1 1 1 1 1 1\n")
+        time.sleep(0.2)
+  print("--> Done\n")
+
+def move_player(conn):
+    setup_test("<< Jumping Test >>", 1)
+    send_cmd(conn, "0 ppo 1 1 2 1\n")
+    time.sleep(1)
+    send_cmd(conn, "0 ppo 1 2 2 1\n")
+    print("--> Done\n")
+
+def level_up(conn):
+    setup_test("<< Level Test >>", 0)
+    for i in range(0, 9):
+        setup_test("Level --> " + str(i), 0.5)
+        send_cmd(conn, "0 plv 1 " + str(i) + "\n")
+    print("--> Done\n")
+
+def team_incantation(conn):
+    setup_test("<< Incantation Test >>", 1)
+    for i in range(2, 7):
+        send_cmd(conn, "0 pnw " + str(i) + " 2 2 1 1 blue\n")
+    send_cmd(conn, "0 pic 2 2 1 2 3 4 5 6\n")
+    time.sleep(5)
+    send_cmd(conn, "0 pie 2 2 1\n")
+    print("--> Done\n")
+
+def death_checker(conn):
+    setup_test("<< Death Test >>", 1)
+    for i in range(0, 7):
+        send_cmd(conn, "0 pdi " + str(i) + "\n")
+        time.sleep(0.2)
+    print("--> Done")
+
+def listen(ip,port):
+    srv = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    srv.bind((ip, port))
+    srv.listen(1)
+    conn, addr = srv.accept()
+    return conn
+
+display_banner()
+conn = listen(sys.argv[1],int(sys.argv[2]))
+
+start_gui(conn)
+spawn_player(conn)
+spawn_food(conn)
+move_player(conn)
+level_up(conn)
+team_incantation(conn)
+death_checker(conn)

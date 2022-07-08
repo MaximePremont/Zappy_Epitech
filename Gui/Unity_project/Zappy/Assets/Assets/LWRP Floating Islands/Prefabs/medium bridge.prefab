@@ -1,0 +1,1949 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3540540602873956840
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 74861542141657082}
+  - component: {fileID: -5378492574420729382}
+  m_Layer: 0
+  m_Name: medium bridge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &74861542141657082
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3540540602873956840}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.337, y: 0, z: 1.848}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5030926333906691506}
+  - {fileID: 1230797099451868183}
+  - {fileID: 283956222927914084}
+  - {fileID: 606044992208972224}
+  - {fileID: 578514668996577783}
+  - {fileID: 7945516208105079674}
+  - {fileID: 7652631551695007276}
+  - {fileID: 5747805093715136449}
+  - {fileID: 7053602541566483449}
+  - {fileID: 1336778435406970094}
+  - {fileID: 8606261357324404898}
+  - {fileID: 1919310696065313824}
+  - {fileID: 1074059012648000591}
+  - {fileID: 757210143390174992}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &-5378492574420729382
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3540540602873956840}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 0}
+--- !u!1001 &1224386112266043118
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 74861542141657082}
+    m_Modifications:
+    - target: {fileID: 852036964139047526, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bridge Pillar Piece (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.183
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.724
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c6493e079094c5c4c90dfa1724be34c4, type: 3}
+--- !u!4 &8606261357324404898 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1224386112266043118}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1519108782057550994
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7652631551695007276}
+    m_Modifications:
+    - target: {fileID: 6145071874995156655, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_Name
+      value: Bridge Walkable Rope
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.23000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.148
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9, type: 3}
+--- !u!1001 &1847019542413589149
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 74861542141657082}
+    m_Modifications:
+    - target: {fileID: 9072100345490879999, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_Name
+      value: Bridge Walkable Piece (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.1559999
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5c8f76e9d9224424a90aab96334dce7f, type: 3}
+--- !u!4 &757210143390174992 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1847019542413589149}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1955834267086421114
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 74861542141657082}
+    m_Modifications:
+    - target: {fileID: 9072100345490879999, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_Name
+      value: Bridge Walkable Piece
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.145
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5c8f76e9d9224424a90aab96334dce7f, type: 3}
+--- !u!4 &578514668996577783 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1955834267086421114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2144868024919583170
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 74861542141657082}
+    m_Modifications:
+    - target: {fileID: 9072100345490879999, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_Name
+      value: Bridge Walkable Piece (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.481
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5c8f76e9d9224424a90aab96334dce7f, type: 3}
+--- !u!4 &1074059012648000591 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2144868024919583170}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2265122895255840042
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 74861542141657082}
+    m_Modifications:
+    - target: {fileID: 6145071874995156655, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_Name
+      value: Bridge Walkable Rope (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.23000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2930001
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9, type: 3}
+--- !u!4 &7053602541566483449 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+    type: 3}
+  m_PrefabInstance: {fileID: 2265122895255840042}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2468818591099474942
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 74861542141657082}
+    m_Modifications:
+    - target: {fileID: 852036964139047526, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bridge Pillar Piece
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.183
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.373
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c6493e079094c5c4c90dfa1724be34c4, type: 3}
+--- !u!4 &5030926333906691506 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+    type: 3}
+  m_PrefabInstance: {fileID: 2468818591099474942}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2841168906378138839
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7945516208105079674}
+    m_Modifications:
+    - target: {fileID: 6145071874995156655, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_Name
+      value: Bridge Walkable Rope
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.23000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.148
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9, type: 3}
+--- !u!1001 &3000402447860920387
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 578514668996577783}
+    m_Modifications:
+    - target: {fileID: 6145071874995156655, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_Name
+      value: Bridge Walkable Rope (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.148
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9, type: 3}
+--- !u!1001 &3097074451241288669
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 757210143390174992}
+    m_Modifications:
+    - target: {fileID: 6145071874995156655, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_Name
+      value: Bridge Walkable Rope (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.148
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9, type: 3}
+--- !u!1001 &3527718698859112696
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 74861542141657082}
+    m_Modifications:
+    - target: {fileID: 1746758589953698123, guid: 38b76b3e056eca240b7d6b703a8f1830,
+        type: 3}
+      propertyPath: m_Name
+      value: Bridge Rope
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079667263446516024, guid: 38b76b3e056eca240b7d6b703a8f1830,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079667263446516024, guid: 38b76b3e056eca240b7d6b703a8f1830,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.291
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079667263446516024, guid: 38b76b3e056eca240b7d6b703a8f1830,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.6358
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079667263446516024, guid: 38b76b3e056eca240b7d6b703a8f1830,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079667263446516024, guid: 38b76b3e056eca240b7d6b703a8f1830,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079667263446516024, guid: 38b76b3e056eca240b7d6b703a8f1830,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079667263446516024, guid: 38b76b3e056eca240b7d6b703a8f1830,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079667263446516024, guid: 38b76b3e056eca240b7d6b703a8f1830,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079667263446516024, guid: 38b76b3e056eca240b7d6b703a8f1830,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079667263446516024, guid: 38b76b3e056eca240b7d6b703a8f1830,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079667263446516024, guid: 38b76b3e056eca240b7d6b703a8f1830,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079667263446516024, guid: 38b76b3e056eca240b7d6b703a8f1830,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.5178752
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 38b76b3e056eca240b7d6b703a8f1830, type: 3}
+--- !u!4 &606044992208972224 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4079667263446516024, guid: 38b76b3e056eca240b7d6b703a8f1830,
+    type: 3}
+  m_PrefabInstance: {fileID: 3527718698859112696}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3692390571125935512
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1074059012648000591}
+    m_Modifications:
+    - target: {fileID: 6145071874995156655, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_Name
+      value: Bridge Walkable Rope
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.23000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.148
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9, type: 3}
+--- !u!1001 &4011094954699331453
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5747805093715136449}
+    m_Modifications:
+    - target: {fileID: 6145071874995156655, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_Name
+      value: Bridge Walkable Rope
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.23000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.148
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9, type: 3}
+--- !u!1001 &4282135363690186076
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 74861542141657082}
+    m_Modifications:
+    - target: {fileID: 1746758589953698123, guid: 38b76b3e056eca240b7d6b703a8f1830,
+        type: 3}
+      propertyPath: m_Name
+      value: Bridge Rope (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079667263446516024, guid: 38b76b3e056eca240b7d6b703a8f1830,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079667263446516024, guid: 38b76b3e056eca240b7d6b703a8f1830,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.291
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079667263446516024, guid: 38b76b3e056eca240b7d6b703a8f1830,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.6358
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079667263446516024, guid: 38b76b3e056eca240b7d6b703a8f1830,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079667263446516024, guid: 38b76b3e056eca240b7d6b703a8f1830,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079667263446516024, guid: 38b76b3e056eca240b7d6b703a8f1830,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079667263446516024, guid: 38b76b3e056eca240b7d6b703a8f1830,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079667263446516024, guid: 38b76b3e056eca240b7d6b703a8f1830,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079667263446516024, guid: 38b76b3e056eca240b7d6b703a8f1830,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079667263446516024, guid: 38b76b3e056eca240b7d6b703a8f1830,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079667263446516024, guid: 38b76b3e056eca240b7d6b703a8f1830,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079667263446516024, guid: 38b76b3e056eca240b7d6b703a8f1830,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.5178752
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 38b76b3e056eca240b7d6b703a8f1830, type: 3}
+--- !u!4 &283956222927914084 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4079667263446516024, guid: 38b76b3e056eca240b7d6b703a8f1830,
+    type: 3}
+  m_PrefabInstance: {fileID: 4282135363690186076}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6694467420357032524
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 74861542141657082}
+    m_Modifications:
+    - target: {fileID: 9072100345490879999, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_Name
+      value: Bridge Walkable Piece (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.506
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5c8f76e9d9224424a90aab96334dce7f, type: 3}
+--- !u!4 &5747805093715136449 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+    type: 3}
+  m_PrefabInstance: {fileID: 6694467420357032524}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6778070731241500601
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 578514668996577783}
+    m_Modifications:
+    - target: {fileID: 6145071874995156655, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_Name
+      value: Bridge Walkable Rope
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.23000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.148
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9, type: 3}
+--- !u!1001 &7658022179786710840
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 757210143390174992}
+    m_Modifications:
+    - target: {fileID: 6145071874995156655, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_Name
+      value: Bridge Walkable Rope
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.23000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.148
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9, type: 3}
+--- !u!1001 &7782514283868144189
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 74861542141657082}
+    m_Modifications:
+    - target: {fileID: 6145071874995156655, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_Name
+      value: Bridge Walkable Rope (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.293
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9, type: 3}
+--- !u!4 &1336778435406970094 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+    type: 3}
+  m_PrefabInstance: {fileID: 7782514283868144189}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8035955053494565165
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5747805093715136449}
+    m_Modifications:
+    - target: {fileID: 6145071874995156655, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_Name
+      value: Bridge Walkable Rope (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.148
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9, type: 3}
+--- !u!1001 &8162793461646662775
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7945516208105079674}
+    m_Modifications:
+    - target: {fileID: 6145071874995156655, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_Name
+      value: Bridge Walkable Rope (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.148
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9, type: 3}
+--- !u!1001 &8540754283025338971
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 74861542141657082}
+    m_Modifications:
+    - target: {fileID: 852036964139047526, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bridge Pillar Piece (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.183
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.373
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c6493e079094c5c4c90dfa1724be34c4, type: 3}
+--- !u!4 &1230797099451868183 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+    type: 3}
+  m_PrefabInstance: {fileID: 8540754283025338971}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8565664207919484886
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1074059012648000591}
+    m_Modifications:
+    - target: {fileID: 6145071874995156655, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_Name
+      value: Bridge Walkable Rope (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.148
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9, type: 3}
+--- !u!1001 &8723563978810596257
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 74861542141657082}
+    m_Modifications:
+    - target: {fileID: 9072100345490879999, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_Name
+      value: Bridge Walkable Piece (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.831
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5c8f76e9d9224424a90aab96334dce7f, type: 3}
+--- !u!4 &7652631551695007276 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+    type: 3}
+  m_PrefabInstance: {fileID: 8723563978810596257}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8846615647781312997
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7652631551695007276}
+    m_Modifications:
+    - target: {fileID: 6145071874995156655, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_Name
+      value: Bridge Walkable Rope (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.148
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118728656880467667, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8fe23b0f6fa4d954e81cc01b3e121cb9, type: 3}
+--- !u!1001 &9020907267287112300
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 74861542141657082}
+    m_Modifications:
+    - target: {fileID: 852036964139047526, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bridge Pillar Piece (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.183
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.724
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c6493e079094c5c4c90dfa1724be34c4, type: 3}
+--- !u!4 &1919310696065313824 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7463152558450144844, guid: c6493e079094c5c4c90dfa1724be34c4,
+    type: 3}
+  m_PrefabInstance: {fileID: 9020907267287112300}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9036450683878536951
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 74861542141657082}
+    m_Modifications:
+    - target: {fileID: 9072100345490879999, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_Name
+      value: Bridge Walkable Piece (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5c8f76e9d9224424a90aab96334dce7f, type: 3}
+--- !u!4 &7945516208105079674 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1379166783757104525, guid: 5c8f76e9d9224424a90aab96334dce7f,
+    type: 3}
+  m_PrefabInstance: {fileID: 9036450683878536951}
+  m_PrefabAsset: {fileID: 0}

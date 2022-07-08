@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Blue Realistic River
+  m_Shader: {fileID: 7, guid: 0000000000000000f000000000000000, type: 0}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_28FD7220:
+        m_Texture: {fileID: 2800000, guid: 6f8c31082cce19f4082db029ec290f12, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_40228FB5:
+        m_Texture: {fileID: 2800000, guid: bd930677745fe4d44948c3ecb657e7d4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_6D00F402:
+        m_Texture: {fileID: 2800000, guid: f2c8c8d375ac84740859cdfeb8e078d3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_F832278D:
+        m_Texture: {fileID: 2800000, guid: bd930677745fe4d44948c3ecb657e7d4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture_28FD7220:
+        m_Texture: {fileID: 2800000, guid: 6f8c31082cce19f4082db029ec290f12, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture_F832278D:
+        m_Texture: {fileID: 2800000, guid: bd930677745fe4d44948c3ecb657e7d4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Vector1_133B18E6: 0.53
+    - Vector1_2501DF8F: 0.33
+    - Vector1_29AAC4D9: 1
+    - Vector1_2A776EE5: 1
+    - Vector1_2F5E6B1A: 0.7
+    - Vector1_3A11E526: 0.388
+    - Vector1_3F0B6C78: 18.4
+    - Vector1_4F572841: 23.34
+    - Vector1_591603CC: 0.97
+    - Vector1_6203CF94: 0.03
+    - Vector1_6854DF20: 1
+    - Vector1_6CECAE08: 0.43
+    - Vector1_851865D2: 0.0119
+    - Vector1_909A4E31: 7.01
+    - Vector1_94C6FB1F: 2
+    - Vector1_94E34D18: 0.34
+    - Vector1_A42428F: 1.37
+    - Vector1_BAA37E37: 4
+    - Vector1_D29B18C3: 0.71
+    - Vector1_D706BD90: -0.05
+    - Vector1_DE2AA65C: 0.433
+    - Vector1_E3AE684E: 11.31
+    - Vector1_EB11B961: 2.8
+    - Vector1_ED69EC13: 2.39
+    - Vector1_F4F2EFFE: 0.85
+    m_Colors:
+    - Color_E5295FA6: {r: 1, g: 1, b: 1, a: 0}
+    - Vector4_2A3AD443: {r: 3, g: 3, b: 0, a: 0}
+    - Vector4_D5025E07: {r: 13.12, g: 4.5, b: 0, a: 0}
+    - _Color: {r: 0.1462264, g: 0.53638995, b: 1, a: 0.90588236}
+  m_BuildTextureStacks: []
