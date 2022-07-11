@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using System;
 
@@ -61,6 +62,7 @@ public class Commands : MonoBehaviour {
     public void use_pns(string[] args) {
         try {
             player_controller.GetComponent<player_manager>().setState(int.Parse(args[1]), int.Parse(args[2]));
+            print("received pns : "+args[1]+"  " + args[2]);
         } catch(Exception) {
             Debug.Log("Error: Invalid pns command");
         }
@@ -139,7 +141,6 @@ public class Commands : MonoBehaviour {
     public void use_pdi(string[] args) {
         try {
             player_controller.GetComponent<player_manager>().playerDeath(int.Parse(args[1]));
-            game_menu.GetComponent<Game_information>().refresh();
         } catch(Exception) {
             Debug.Log("Error: Invalid pdi command");
         }

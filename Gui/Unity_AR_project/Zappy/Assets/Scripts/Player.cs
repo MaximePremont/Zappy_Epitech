@@ -19,7 +19,6 @@ public class Player : MonoBehaviour {
     public Dictionary<int, float> oris = new Dictionary<int, float>();  //1(N), 2(E), 3(S), 4(W)
     public Dictionary<string, int> inv = new Dictionary<string, int>();
     public int collecting = -1;
-    public bool alive = true;
     void Awake() {
         oris.Add(1, 0);
         oris.Add(2, 90);

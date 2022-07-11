@@ -1,7 +1,11 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 
-public class Player_information : MonoBehaviour {
+public class Player_information : MonoBehaviour
+{
+    // Start is called before the first frame update
     public string team;
     public string level;
     public string linemateNbr;
@@ -10,9 +14,6 @@ public class Player_information : MonoBehaviour {
     public string mendianeNbr;
     public string phirasNbr;
     public string thystameNbr;
-    public string aliveNbr;
-    public string deadNbr;
-    public string maxNbr;
     public Text textTeam;
     public Text textLevel;
     public Text textLinemateNbr;
@@ -21,9 +22,6 @@ public class Player_information : MonoBehaviour {
     public Text textMendianeNbr;
     public Text textPhirasNbr;
     public Text textThystameNbr;
-    public Text textAliveNbr;
-    public Text textDeadNbr;
-    public Text textMaxNbr;
     public MouseHandler mh;
 
     public void refresh() {
@@ -36,8 +34,5 @@ public class Player_information : MonoBehaviour {
         textMendianeNbr.text = mendianeNbr;
         textPhirasNbr.text = phirasNbr;
         textThystameNbr.text = thystameNbr;
-        textAliveNbr.text = aliveNbr;
-        textDeadNbr.text = deadNbr;
-        textMaxNbr.text = maxNbr;
     }
 }

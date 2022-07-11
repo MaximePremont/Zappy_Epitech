@@ -14,7 +14,6 @@ public class MouseHandler : MonoBehaviour {
     private int selectionType = -1;
     public AudioSource selectSound;
     public bool inMenu = false;
-    public GameObject player_controller;
     private void Start() {
         Cursor.lockState = CursorLockMode.Locked;
         mouseSensitivity = float.Parse(keys_controller.GetComponent<Keys_controller>().getKey("Sensitivity"));
@@ -88,10 +87,6 @@ public class MouseHandler : MonoBehaviour {
         player_selector.GetComponent<Player_information>().mendianeNbr = "Mendiane --> " + (inventory.ContainsKey("Mendiane") ? inventory["Mendiane"] : "0");
         player_selector.GetComponent<Player_information>().phirasNbr = "Phiras --> " + (inventory.ContainsKey("Phiras") ? inventory["Phiras"] : "0");
         player_selector.GetComponent<Player_information>().thystameNbr = "Thystame --> " + (inventory.ContainsKey("Thystame") ? inventory["Thystame"] : "0");
-        string[] values = player_controller.GetComponent<player_manager>().getTeamInfos(playerObj.GetComponent<Player>().team).Split(",");
-        player_selector.GetComponent<Player_information>().aliveNbr = "Alive --> "+values[0];
-        player_selector.GetComponent<Player_information>().deadNbr = "Dead --> "+values[1];
-        player_selector.GetComponent<Player_information>().maxNbr = "Max level --> "+values[2];
     }
     private void selectPlayer(GameObject playerObj) {
         selectSound.Play();

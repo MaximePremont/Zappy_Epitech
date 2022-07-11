@@ -1,4 +1,7 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 
 public class Args_manager : MonoBehaviour {
     public GameObject main_menu;

@@ -1,5 +1,7 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using System;
 using TMPro;
 
 public class player_manager : MonoBehaviour {
@@ -204,7 +206,6 @@ public class player_manager : MonoBehaviour {
         if (p == null)
             return;
         p.transform.GetChild(0).gameObject.GetComponent<Animator>().SetBool("Dead", true);
-        p.GetComponent<Player>().alive = false;
     }
     public void startIncantation(int n) {
         GameObject p = selectPlayer(n);
@@ -236,23 +237,5 @@ public class player_manager : MonoBehaviour {
         }
         gameMusic.Stop();
         endMusic.Play();
-    }
-    public string getTeamInfos(string team) {
-        int alive = 0;
-        int dead = 0;
-        int max = 0;
-        for (int i = 0; i < players.Count; i++) {
-            GameObject current = (GameObject) players[i];
-            if (current.GetComponent<Player>().team == team) {
-                if (current.GetComponent<Player>().alive)
-                    alive++;
-                else
-                    dead++;
-                if (current.GetComponent<Player>().level > max)
-                    max = current.GetComponent<Player>().level;
-            }
-        }
-        string res = alive+","+dead+","+max;
-        return res;
     }
 }

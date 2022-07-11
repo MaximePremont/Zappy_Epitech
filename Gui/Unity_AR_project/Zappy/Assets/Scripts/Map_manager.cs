@@ -1,5 +1,7 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class Map_manager : MonoBehaviour {
     private int x = -1;
@@ -15,9 +17,8 @@ public class Map_manager : MonoBehaviour {
     public GameObject island_object6;
 
     public GameObject decors;
-    public GameObject user;
-    public GameObject mycamera;
     public GameObject player_controller;
+    public Transform zero;
     public void setTiming(float time) {
         float multiplicator = time / 100;
         Time.timeScale = multiplicator;
@@ -39,8 +40,8 @@ public class Map_manager : MonoBehaviour {
         Vector3 vec = new Vector3(0, 0, 0);
         for (int i = 0; i < x; i++) {
             for (int j = 0; j < y; j++) {
-                vec = new Vector3(3 * i + ((new System.Random()).Next(9) / 10 - 0.4f),
-                    11.5f + ((new System.Random()).Next(4) / 10), 3 * j + ((new System.Random()).Next(9) / 10 - 0.4f));
+                vec = new Vector3(zero.position.x + 1 * i + ((new System.Random()).Next(9) / 10 - 0.4f), zero.position.y -
+                    0.5f + ((new System.Random()).Next(4) / 10), zero.position.z + 1 * j + ((new System.Random()).Next(9) / 10 - 0.4f));
                 GameObject go = null;
                 int rand = (new System.Random()).Next(6);
                 float angle = (new System.Random()).Next(36001) / 10;
@@ -86,9 +87,6 @@ public class Map_manager : MonoBehaviour {
                 StartCoroutine(startAnimation(go));
             }
         }
-        user.transform.position = new Vector3(vec.x, 14.25f, vec.z);
-        user.transform.rotation = Quaternion.Euler(0, -136, 0);
-        mycamera.gameObject.transform.rotation = Quaternion.Euler(17f, -136, 0);
     }
 
     IEnumerator startAnimation(GameObject go) {
